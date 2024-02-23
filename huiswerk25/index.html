@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-3.1.0.min.js">
+        </script>
+        <script type="text/javascript">
+        $(document).ready(function() {
+        $("#naarboven").click(function() {
+        $("p").slideUp();
+        });
+        $("#naarbeneden").click(function() {
+        $("p").slideDown();
+        });
+        });
+        </script>
+    </head>
+    <body>
+        <button id="naarboven">verdwijn naar boven</button>
+        <button id="naarbeneden">toon naar beneden</button>
+        <p>Met de knoppen kunt u deze tekst naar boven laten verdwijnen en naar beneden laten tonen.</p>
+        <noscript>
+        Om deze website optimaal te gebruiken is het noodzakelijk om JavaScript te activeren.
+        </noscript>
+    </body>
+</html>
